@@ -10,14 +10,18 @@ let statusResult = document.getElementById('statusResult')
 let working = document.getElementById('working')
 let columnDiv = document.getElementById('columndiv')
 
+//UPDATE THE CONST BELOW WITH YOUR FIREBASE PROJECT CONFIG:
+//You can retrieve the config snippet via the firebase console project overview page: https://console.firebase.google.com/u/0/, 
+// click into your project, upper left project settings (gear icon),
+// scroll down in the main panel to Your apps - Web apps:
 const firebaseConfig = {
    //your firebase web app config here:
-   apiKey: "AIzaSyCD0dZ60icWgu2752gLsBjpq_skX9f1PV8",
-   authDomain: "growthanalytics.firebaseapp.com",
-   projectId: "growthanalytics",
-   storageBucket: "growthanalytics.appspot.com",
-   messagingSenderId: "974483203513",
-   appId: "1:974483203513:web:f7560da60a9209034f8268"
+   apiKey: "{your_api_key}",
+   authDomain: "{your_project_name}.firebaseapp.com",
+   projectId: "{your_project_id}",
+   storageBucket: "{your_project_id}.appspot.com",
+   messagingSenderId: "{your_sender_id}",
+   appId: "{your_app_id}"
 };
 
 // Initialize Firebase
